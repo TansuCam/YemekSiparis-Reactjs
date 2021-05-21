@@ -1,0 +1,10 @@
+.navButton {
+    padding: 10px;
+    svg {
+        font-size: 28px;
+    }
+}
+.navButtonSelected {
+    color: var(--c-theme);
+    background-color: var(--c-theme-15);
+}

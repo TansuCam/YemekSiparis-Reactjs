@@ -1,0 +1,30 @@
+.pointCard {
+    border: 1.15px solid red;
+    border-radius: 10px;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        color: green;
+    }
+    p {
+        padding-top: 4px;
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .pointCard {
+        width: 30px;
+        height: 40px;
+
+        h1 {
+            font-size: 15px;
+        }
+        p {
+            font-size: 9px;
+        }
+    }
+}

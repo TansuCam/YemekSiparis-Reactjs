@@ -1,0 +1,19 @@
+.userCard {
+    border: 1px solid #1b4f72;
+    text-align: center;
+    max-width: 180px;
+    padding: 10px;
+    display: grid;
+    border-radius: 10px;
+    margin: 50px 10px;
+    h2 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #1b4f72;
+    }
+    p {
+        font-size: 14px;
+        padding-top: 3px;
+        color: #2980b9;
+    }
+}

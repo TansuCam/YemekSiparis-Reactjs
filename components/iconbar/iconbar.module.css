@@ -1,0 +1,12 @@
+.iconbar {
+    height: 55px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    border-top: 1px solid var(--c-border);
+    grid-gap: 10px;
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+}

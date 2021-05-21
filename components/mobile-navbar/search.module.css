@@ -1,0 +1,35 @@
+.search {
+    top: 0;
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    width: 110%;
+    z-index: 999;
+    border-bottom: 1px solid var(--c-border);
+
+    .box {
+        width: 20px;
+        box-sizing: border-box;
+        border: 2px solid white;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('../../icons/search.svg');
+        float: right;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 70px;
+        transition: width 0.5s ease-in-out;
+    }
+
+    .box:focus {
+        width: 50%;
+        text-decoration: none;
+    }
+    .logo {
+        padding: 10px;
+        padding-top: 15px;
+        float: left;
+        max-width: 40%;
+    }
+}

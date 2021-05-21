@@ -1,0 +1,22 @@
+.button {
+    padding-left: 1rem;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: var(--fade);
+    text-decoration: none;
+    font-size: 19px;
+    svg {
+        color: white;
+        font-size: 20px;
+        margin-right: 15px;
+
+        & + * {
+            margin-top: -5px;
+        }
+    }
+}
+.link {
+    text-decoration: none;
+}

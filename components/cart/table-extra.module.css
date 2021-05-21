@@ -1,0 +1,34 @@
+.tableExtraLayout {
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 150px;
+
+    .clock {
+        margin-left: 12%;
+        input {
+            margin-right: 10px;
+        }
+    }
+    .note {
+        border: 1px solid var(--c-gray);
+        border-radius: 10px;
+        padding: 10px;
+        width: 250px;
+        height: 150px;
+    }
+    .note:focus {
+        outline: 0;
+        background-color: rgba(250, 5, 5, 0.1);
+        -webkit-box-shadow: 1px 3px 1px #9e9e9e;
+        -moz-box-shadow: 1px 3px 1px #9e9e9e;
+        box-shadow: 1px 3px 1px #9e9e9e;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .tableExtraLayout {
+        margin-top: 1%;
+        display: block;
+    }
+}

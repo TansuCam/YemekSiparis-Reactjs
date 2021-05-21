@@ -1,0 +1,13 @@
+:root {
+    --c-primary: #fff;
+    --c-theme: #dd3333;
+    --c-theme-15: rgba(236, 8, 60, 0.1);
+    --c-themeButton: rgba(250, 8, 60);
+    --c-gray: #413d3d;
+    --c-darkgray: #202327;
+    --c-textcolor: #000;
+    --c-border: #e0e0e0;
+    --fade: 320ms;
+    --c-themetext: #fff;
+    --c-icondefault: #cacfd2;
+}

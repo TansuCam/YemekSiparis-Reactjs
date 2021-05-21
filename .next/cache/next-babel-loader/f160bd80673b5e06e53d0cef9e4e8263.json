@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Layout from '../components/layout';\nimport Menu from '../components/menu-content';\n\nfunction CartPage() {\n  return __jsx(Layout, null, __jsx(Menu, null));\n}\n\nexport default CartPage;","map":null,"metadata":{},"sourceType":"module"}

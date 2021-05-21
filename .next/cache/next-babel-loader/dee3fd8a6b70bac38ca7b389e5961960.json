@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Layout from '../components/adminPanel/layout';\nimport Home from '../components/adminPanel/adminhome';\n\nfunction AdminHome() {\n  return __jsx(Layout, null, __jsx(Home, null));\n}\n\nexport default AdminHome;","map":null,"metadata":{},"sourceType":"module"}

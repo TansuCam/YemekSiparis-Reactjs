@@ -1,0 +1,15 @@
+.button {
+    cursor: pointer;
+    background: transparent;
+    color: var(--c-icondefault);
+    border-radius: 99px;
+    align-items: center;
+    justify-content: center;
+    transition: var(--fade);
+    text-decoration: none;
+    margin-left: 15px;
+
+    &:active {
+        color: var(--c-theme);
+    }
+}

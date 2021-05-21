@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Layout from '../components/adminPanel/layout';\nimport Comments from '../components/adminPanel/admincomments';\n\nfunction AdminComment() {\n  return __jsx(Layout, null, __jsx(Comments, null));\n}\n\nexport default AdminComment;","map":null,"metadata":{},"sourceType":"module"}

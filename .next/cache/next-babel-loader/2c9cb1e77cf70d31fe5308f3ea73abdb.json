@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport cn from 'classnames';\nimport styles from './col-extra.module.css';\n\nfunction Extra({\n  children\n}) {\n  return __jsx(\"div\", {\n    className: cn([styles.layout])\n  }, children);\n}\n\nexport default Extra;","map":null,"metadata":{},"sourceType":"module"}

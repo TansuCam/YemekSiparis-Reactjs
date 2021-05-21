@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport styles from './login.module.css';\nimport Deneme from '../deneme/deneme';\n\nfunction Login() {\n  return __jsx(\"div\", {\n    className: styles.loginPage\n  }, __jsx(Deneme, null));\n}\n\nexport default Login;","map":null,"metadata":{},"sourceType":"module"}

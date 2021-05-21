@@ -1,0 +1,11 @@
+.main {
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: var(--c-border);
+}
+
+@media screen and (max-width: 700px) {
+    .main {
+        border: 0;
+    }
+}

@@ -1,0 +1,95 @@
+.card {
+    cursor: pointer;
+    align-items: center;
+    background-color: #fff;
+    width: 85px;
+    display: grid;
+    grid-template-areas:
+        'avatar'
+        'body'
+        'footer';
+    grid-gap: 8px;
+    padding: 10px;
+    border: 0.5px solid #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.avatarPhoto {
+    size: 10px;
+    align-items: center;
+}
+.avatar {
+    margin-bottom: 8px;
+    margin-left: 15px;
+    grid-area: avatar;
+}
+
+.body {
+    grid-area: body;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 8px;
+    color: var(--c-gray);
+}
+
+.name {
+    color: var(--c-text-color);
+    font-size: 12px;
+}
+
+.footer {
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: var(--c-border);
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerButton {
+    padding-top: 8px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: var(--c-gray);
+
+    > span {
+        margin-left: 2px;
+        font-size: 0.8em;
+    }
+
+    &:first-child {
+        margin-left: 5px;
+    }
+    & + & {
+        margin-left: 15px;
+    }
+}
+
+.actionButton {
+    svg {
+        font-size: 17px;
+    }
+    &:hover {
+        background-color: transparent;
+        color: var(--c-gray);
+    }
+}
+@media screen and (max-width: 850px) {
+    .card {
+        width: 70px;
+        grid-gap: 5px;
+        padding: 8px;
+        border: 0.5px solid #f1f1f1;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .avatar {
+        margin: 5px;
+        grid-area: avatar;
+    }
+}

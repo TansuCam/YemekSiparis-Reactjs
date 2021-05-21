@@ -1,0 +1,31 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    div {
+        max-width: 250px;
+        text-align: center;
+
+        p {
+            font-size: 13px;
+        }
+
+        p + p {
+            font-size: 17px;
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .layout {
+        div {
+            p {
+                font-size: 11px;
+            }
+            p + p {
+                font-size: 14px;
+                padding-top: 2px;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.table {
+    margin-left: 25px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    width: 70%;
+}
+.tableRow {
+    display: grid;
+    grid-template-columns: 1fr 60px;
+}
+.title {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 15px;
+}
+.disp {
+    display: none;
+}
+.textHead {
+    color: #dd3333;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 15px;
+}
+.adressTableTitle {
+    display: grid;
+    grid-template-columns: 200px 150px;
+    grid-gap: 15%;
+}
+.add {
+    background-color: transparent;
+    font-weight: bold;
+    color: green;
+    padding-bottom: 15px;
+}
+.tableHead,
+.tableData {
+    text-align: left;
+    padding: 4px;
+}
+
+.tableHead {
+    color: #3e3c3c;
+    border-style: solid;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    height: 35px;
+    padding-left: 20px;
+
+    & + & {
+        color: green;
+    }
+}
+.row {
+    width: 90%;
+    height: 55px;
+    padding-bottom: 90px;
+    & + & {
+        padding-left: 15px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        height: 50px;
+        padding-top: 5px;
+    }
+    .td {
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .table {
+        width: 95%;
+        margin-left: 15px;
+        margin-right: -50px;
+    }
+}

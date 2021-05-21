@@ -1,0 +1,127 @@
+.modal {
+    font-size: 12px;
+}
+
+.modal > .header {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 92%;
+    border-bottom: 1px solid var(--c-border);
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+
+    .register {
+        margin-left: 38%;
+        width: 150px;
+    }
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 22px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+.button {
+    width: 30%;
+    height: 46px;
+    padding: 8px;
+    margin-left: 20%;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    font-size: 20px;
+}
+.gridContainer {
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.gridContainerLogin {
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+    padding: 10px;
+}
+.gridContainerLogin > * {
+    border: 1px solid #cacfd2;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 14px;
+}
+
+.gridContainer > * {
+    border: 1px solid #cacfd2;
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 14px;
+}
+.cins {
+    border: 1px solid #cacfd2;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    margin: 10px;
+    width: 250px;
+}
+
+.buttonLogin {
+    margin-left: 17%;
+    font-size: 14px;
+    color: white;
+    small {
+        font-weight: 500;
+        font-size: 18px;
+        color: #57cfff;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        padding-left: 5px;
+    }
+    .gridContainer > * {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    .cins {
+        padding: 5px;
+        margin-right: 10px;
+        font-size: 13px;
+        width: 150px;
+    }
+
+    .modal > .header {
+        width: 82%;
+    }
+    .modal > .actions {
+        .register {
+            margin-left: 15px;
+            width: 85%;
+        }
+    }
+}

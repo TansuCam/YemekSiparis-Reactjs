@@ -1,0 +1,36 @@
+.image {
+    box-sizing: border-box;
+    padding: 0px 13px;
+    background-color: white;
+    border: 1px solid #dd3333;
+    border-radius: 0px 0px 99px 0px;
+    width: 26rem;
+    height: 80px;
+    img {
+        box-sizing: border-box;
+        margin-top: 15px;
+        max-width: 15rem;
+        max-height: 7rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .image {
+        width: 18rem;
+
+        img {
+            width: 13rem;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .image {
+        width: 15rem;
+
+        img {
+            width: 12rem;
+            margin-top: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.layout {
+    margin-left: 6%;
+    margin-right: 3%;
+    border: 1.2px solid var(--c-border);
+    border-radius: 10px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 85px 170px 1fr;
+    grid-gap: 8px;
+    height: 90px;
+    max-width: 580px;
+}
+
+@media screen and (max-width: 850px) {
+    .layout {
+        margin-top: 18%;
+        grid-template-columns: 70px 140px 1fr;
+        grid-gap: 4px;
+        height: 90px;
+        max-width: 380px;
+    }
+}

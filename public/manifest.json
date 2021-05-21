@@ -1,0 +1,23 @@
+{
+    "name": "Yemek Sipariş",
+    "short_name": "Sipariş",
+    "theme_color": "#dd3333",
+    "background_color": "#ffffff",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "127.0.0.1:3000/index.js",
+    "icons": [
+        {
+            "src": "../icons/icon-192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "../icons/icon-512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
